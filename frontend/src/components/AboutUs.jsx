@@ -190,7 +190,7 @@ const AboutUs = () => {
     {
       src: "/assets/Shri.Sunil_Rane.png",
       name: "Shri. Sunil Rane",
-      designation: "Atharva University, Mumbai ",
+      designation: "Atharva University, Mumbai",
     },
     {
       src: "/assets/Dr.Rajesh_Pande.jpg",
