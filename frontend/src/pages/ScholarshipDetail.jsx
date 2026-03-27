@@ -30,7 +30,7 @@ const ScholarshipDetail = () => {
           <p key={index}>{para}</p>
         ))}
       </div>
-      <div className="comment-section">
+      {/* <div className="comment-section">
         <h4>Leave a Reply</h4>
         <form>
           <textarea placeholder="Comment *" required />
@@ -42,7 +42,7 @@ const ScholarshipDetail = () => {
           </label>
           <button type="submit">Post Comment</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

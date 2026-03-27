@@ -20,7 +20,7 @@ const PeraIgniteScholarshipDetail = () => {
         <Link to="/scholarships/vijay-bhatkar-scholarship">Dr. Vijay Bhatkar PERA Aspire National Scholarship →</Link>
       </div>
 
-      <div className="comment-section">
+      {/* <div className="comment-section">
         <h4>Leave a Reply</h4>
         <form>
           <textarea placeholder="Comment *" required />
@@ -32,7 +32,7 @@ const PeraIgniteScholarshipDetail = () => {
           </label>
           <button type="submit">Post Comment</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

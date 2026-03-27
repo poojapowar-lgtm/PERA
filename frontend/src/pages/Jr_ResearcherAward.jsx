@@ -13,7 +13,7 @@ const Jr_ResearcherAward = () => {
         <li>Minimum 3 years of research-related experience in the respective domain.</li>
         <li>Applicant age must not be more than 35 years.</li>
       </ul>
-      <div className="comment-section">
+      {/* <div className="comment-section">
         <h4>Leave a Reply</h4>
         <form>
           <textarea placeholder="Comment *" required></textarea>
@@ -23,7 +23,7 @@ const Jr_ResearcherAward = () => {
           <label><input type="checkbox" /> Save my name, email, and website in this browser for the next time I comment.</label>
           <button type="submit">Post Comment</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

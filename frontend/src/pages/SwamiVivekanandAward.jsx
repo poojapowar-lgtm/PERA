@@ -21,7 +21,7 @@ const SwamiVivekanandAward = () => {
         <Link to="/awards/empowering-private-universities">Next post: Empowering State Private Universities →</Link>
       </div>
 
-      <div className="comment-section">
+      {/* <div className="comment-section">
         <h4>Leave a Reply</h4>
         <form>
           <textarea placeholder="Comment *" required></textarea>
@@ -34,7 +34,7 @@ const SwamiVivekanandAward = () => {
           </label>
           <button type="submit">Post Comment</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

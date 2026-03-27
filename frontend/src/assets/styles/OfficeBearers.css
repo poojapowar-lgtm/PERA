@@ -14,39 +14,7 @@
 .bearers-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-
-.bearer-card {
-  background: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease;
-}
-
-.bearer-card:hover {
-  transform: scale(1.02);
-}
-
-.bearer-card img {
-  width: 100%;
-  height: auto;
-  max-height: 260px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-
-.bearer-card h3 {
-  margin-top: 10px;
-  font-size: 1.1rem;
-  color: #333;
-}
-
-.bearer-card p {
-  font-size: 0.95rem;
-  color: #666;
+  gap: 30px;
 }
 
 /* Reply Form */

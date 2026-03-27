@@ -19,7 +19,7 @@ const SavitribaiPhuleAward = () => {
         <Link to="/awards/swami-vivekanand-teacher-award">Next post: Swami Vivekanand PERA Teacher Award →</Link>
       </div>
 
-      <div className="comment-section">
+      {/* <div className="comment-section">
         <h4>Leave a Reply</h4>
         <p>Your email address will not be published. Required fields are marked *</p>
         <form>
@@ -41,7 +41,7 @@ const SavitribaiPhuleAward = () => {
 
           <button type="submit">Post Comment</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

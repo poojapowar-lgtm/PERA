@@ -11,7 +11,7 @@ const Savitribai_PhuleAward = () => {
         <li>Must be a full-time teacher for classes 8th Std to 12th Std (teachers from any board can apply).</li>
         <li>Minimum 5 years of teaching experience.</li>
       </ul>
-      <div className="comment-section">
+      {/* <div className="comment-section">
         <h4>Leave a Reply</h4>
         <form>
           <textarea placeholder="Comment *" required></textarea>
@@ -21,7 +21,7 @@ const Savitribai_PhuleAward = () => {
           <label><input type="checkbox" /> Save my name, email, and website in this browser for the next time I comment.</label>
           <button type="submit">Post Comment</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -21,7 +21,7 @@ const JrResearcherAward = () => {
         <Link to="/awards/sr-researcher-award">Next post: Sir Vishweshwaraiah PERA Sr Researcher Award →</Link>
       </div>
 
-      <div className="comment-section">
+      {/* <div className="comment-section">
         <h4>Leave a Reply</h4>
         <p>Your email address will not be published. Required fields are marked *</p>
         <form>
@@ -43,7 +43,7 @@ const JrResearcherAward = () => {
 
           <button type="submit">Post Comment</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

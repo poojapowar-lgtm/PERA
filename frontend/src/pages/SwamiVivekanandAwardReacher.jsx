@@ -8,7 +8,7 @@ const SwamiVivekanandAwardReasercher = () => {
         <li>Must be a full-time teacher at senior college, higher education institute or university.</li>
         <li>Minimum 5 years of teaching experience.</li>
       </ul>
-      <div className="comment-section">
+      {/* <div className="comment-section">
         <h4>Leave a Reply</h4>
         <form>
           <textarea placeholder="Comment *" required></textarea>
@@ -18,7 +18,7 @@ const SwamiVivekanandAwardReasercher = () => {
           <label><input type="checkbox" /> Save my name, email, and website in this browser for the next time I comment.</label>
           <button type="submit">Post Comment</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

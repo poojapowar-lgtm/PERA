@@ -18,7 +18,7 @@ const MashelkarScholarshipDetail = () => {
         <Link to="/scholarships/apj-abdul-kalam-scholarship">Dr. APJ Abdul Kalam PERA INDIGENT National Scholarship →</Link>
       </div>
 
-      <div className="comment-section">
+      {/* <div className="comment-section">
         <h4>Leave a Reply</h4>
         <form>
           <textarea placeholder="Comment *" required />
@@ -30,7 +30,7 @@ const MashelkarScholarshipDetail = () => {
           </label>
           <button type="submit">Post Comment</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };
