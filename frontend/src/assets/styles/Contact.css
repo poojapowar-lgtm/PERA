@@ -53,7 +53,7 @@
 
 .info-box {
   background: #ffffff;
-  padding: clamp(1rem, 2vw, 1.8rem);
+  padding:  1rem clamp(1rem, 2vw, 1.8rem);
   border-left: 6px solid #007bff;
   border-radius: 12px;
   min-width: 0;

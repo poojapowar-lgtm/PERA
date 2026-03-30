@@ -1,99 +1,73 @@
+/* Office Bearers Page */
 .office-bearers-page {
-  padding: 30px 20px;
+  padding: clamp(15px, 3vw, 30px) clamp(10px, 2vw, 20px);
   font-family: 'Segoe UI', sans-serif;
-  max-width: 1200px;
+  max-width: 1140px;
   margin: auto;
 }
 
-
+/* Grid Layout */
 .bearers-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 30px;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(clamp(200px, 22vw, 240px), 1fr)
-  );
-  gap: clamp(1rem, 3vw, 2rem);
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(clamp(180px, 20%, 250px), 1fr));
+  gap: clamp(15px, 2vw, 30px);
 }
 
-.overlay p{
+/* Overlay Text */
+.overlay h4 {
+  font-size: clamp(16px, 2vw, 18px);
+  font-weight: 500;
+  color: wheat;
+}
+
+.overlay p {
+  font-size: clamp(12px, 1.5vw, 14px);
   color: white;
   margin: 0;
 }
 
-
-/* Image */
-.bearer-card img {
-  max-width: clamp(160px, 25vw, 250px);
-  border-right: 6px solid #007bff;
-  border-bottom: 6px solid #007bff;
-  object-fit: cover;
-  border-radius: 10%;
-  transition: transform 0.3s ease;
-}
-
-.bearer-card:hover img {
-  transform: scale(1.04);
-}
-
-/* Name */
-.bearer-card h3 {
-  margin-top: clamp(0.8rem, 1.5vw, 1rem);
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
-  color: #333;
-}
-
-/* Position */
-.bearer-card p {
-  font-size: clamp(0.85rem, 1.2vw, 0.95rem);
-  color: #666;
-  margin-top: 0.3rem;
-}
-
-/* Reply Section */
 /* Reply Form */
 .reply-section {
-  margin-top: 50px;
+  margin-top: clamp(25px, 4vw, 50px);
   background: #f4f4f4;
-  padding: 30px;
-  border-radius: 10px;
+  padding: clamp(15px, 3vw, 30px);
+  border-radius: clamp(6px, 1vw, 10px);
 }
 
 .reply-section h2 {
-  margin-bottom: 10px;
+  font-size: clamp(18px, 2.5vw, 24px);
+  margin-bottom: clamp(5px, 1vw, 10px);
   color: #1d2550;
 }
 
 .reply-section p {
-  font-size: 0.95rem;
-  margin-bottom: 20px;
+  font-size: clamp(0.85rem, 1vw, 0.95rem);
+  margin-bottom: clamp(10px, 2vw, 20px);
 }
 
+/* Form Inputs */
 .reply-form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: clamp(10px, 2vw, 15px);
 }
 
 .reply-form textarea,
 .reply-form input {
-  padding: 12px;
-  font-size: 1rem;
+  padding: clamp(8px, 1.5vw, 12px);
+  font-size: clamp(0.9rem, 1vw, 1rem);
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: clamp(4px, 1vw, 6px);
   width: 100%;
 }
 
 .reply-form button {
   background: #007bff;
   color: white;
-  padding: 12px 20px;
+  padding: clamp(10px, 1.5vw, 12px) clamp(15px, 2vw, 20px);
   border: none;
-  font-size: 1rem;
-  border-radius: 6px;
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  border-radius: clamp(4px, 1vw, 6px);
   cursor: pointer;
   align-self: flex-start;
   transition: background 0.3s ease;
@@ -103,31 +77,38 @@
   background: #0056b3;
 }
 
+/* Checkbox Section */
 .remember {
   display: flex;
   align-items: center;
-  font-size: 0.9rem;
+  font-size: clamp(0.8rem, 1vw, 0.9rem);
   color: #444;
-  gap: 8px;
+  gap: clamp(5px, 1vw, 8px);
   flex-wrap: wrap;
-  margin-top: 5px;
+  margin-top: clamp(3px, 1vw, 5px);
 }
 
 .remember input[type="checkbox"] {
-  width: 16px;
-  height: 16px;
+  width: clamp(14px, 1.5vw, 16px);
+  height: clamp(14px, 1.5vw, 16px);
   accent-color: #007bff;
   margin: 0;
 }
 
-
+/* Media Queries */
 @media (max-width: 768px) {
+  .bearers-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 cards per row */
+    gap: clamp(10px, 4vw, 15px);
+  }
+
   .bearer-card img {
-    max-height: 220px;
+    max-height: clamp(180px, 15vw, 220px);
   }
 
   .reply-section {
-    padding: 20px 15px;
+    padding: clamp(10px, 3vw, 20px);
   }
 
   .reply-form button {

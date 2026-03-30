@@ -11,11 +11,8 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
   max-width: 1200px;
   margin: 0 auto;
-<<<<<<< HEAD
-=======
-  padding: clamp(10px, 2vw,30px);
+  padding: clamp(10px, 2vw, 30px);
   backdrop-filter: blur(6px);
->>>>>>> f7bf7d5 (updated the website styling and added mobile responsivness)
 }
 
 /* Top Row */
@@ -114,10 +111,7 @@ ul {
 /* Follow Section */
 .footer-follow {
   text-align: center;
-<<<<<<< HEAD
-  /* margin-top: 30px; */
-=======
->>>>>>> f7bf7d5 (updated the website styling and added mobile responsivness)
+  margin-top: 30px;
 }
 
 .footer-follow h3 {
@@ -144,12 +138,6 @@ ul {
 /* Bottom */
 .footer-bottom {
   text-align: center;
-<<<<<<< HEAD
-  padding-top: 30px;
-  /* margin-top: 30px; */
-=======
-  padding-top: clamp(1.5rem, 3vw, 3rem);
->>>>>>> f7bf7d5 (updated the website styling and added mobile responsivness)
 }
 
 .bottom-links a {

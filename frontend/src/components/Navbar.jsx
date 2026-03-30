@@ -29,7 +29,7 @@ const Navbar = () => {
     setMenuOpen(false);
   }, [location]);
 
- const colleges = [
+  const colleges = [
     { name: "Ajeenkya D. Y. Patil University, Pune", url: "https://adypu.edu.in" },
     { name: "Atharva University, Mumbai", url: "https://atharvauniversity.org/" },
     { name: "D. Y. Patil Agriculture & Technical University, Talsande", url: "https://dypatiluniversitypune.edu.in" },
@@ -60,6 +60,7 @@ const Navbar = () => {
     { name: "Vijaybhoomi University, Greater Mumbai", url: "https://vijaybhoomi.edu.in" },
     { name: "Vishwakarma University, Pune", url: "https://www.vupune.ac.in" },
   ];
+
 
   return (
     <nav className="navbar">

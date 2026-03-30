@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { IoIosCloseCircle } from "react-icons/io";
 import "../assets/styles/AboutUs.css";
 import peraSteps from "../assets/pera_steps.png";
 
@@ -56,7 +58,7 @@ const AboutUs = () => {
       designation: "Member, PERA",
     },
     {
-      src: "/assets/Dr. Ravikumar_Chitnis.png",
+      src: "/assets/Dr. Ravikumar_Chitnis.jpg",
       name: "Prof. Chitnis",
       designation: "Executive Member",
     },
@@ -140,64 +142,6 @@ const AboutUs = () => {
       name: "Dr. Ravi Joshi",
       designation: "Member, PERA",
     },
-    {
-      src: "/assets/vc-Gopalkrishna-Joshi.jpg",
-      name: "Dr. Gopalkrishna Joshi ",
-      designation: "Member, PERA",
-    },
-
-    {
-      src: "/assets/Mr.Amit-Nitinrao-Kolhe.png",
-      name: "Mr. Amit Nitinrao Kolhe",
-      designation: "Member, PERA",
-    },
-    // {
-    //   src: "/assets/Dr.M-Kharat.png",
-    //   name: "Dr. M.U Kharat",
-    //   designation: "Member, PERA",
-    // },
-    {
-      src: "/assets/Dr. R.D.Kharadkar.png",
-      name: "Dr. R. D. Kharadkar ",
-      designation: "VC, GHR IST University ",
-    },
-    // {
-    //   src: "/assets/Dr.Prasad_Khandekar.png",
-    //   name: "Dr. Prasad Khandekar",
-    //   designation: "Member, PERA",
-    // },
-    {
-      src: "/assets/Dr.Rajesh_Ingale.jpg",
-      name: "Dr. Rajesh Ingale ",
-      designation: "VC, DES Pune University, Pune ",
-    },
-    {
-      src: "/assets/prof.PAWAR.jpg",
-      name: "Prof. Hanumant Pawar",
-      designation: "CEO, PERA",
-    },
-    {
-      src: "/assets/Dr.Tarita.png",
-      name: "Dr. Tarita Shankar",
-      designation: "Member, PERA",
-    },
-    {
-      src: "/assets/Dr.Somnath_Patil.png",
-      name: "Dr. Somnath Patil",
-      designation: "Member, PERA",
-    },
-    {
-      src: "/assets/Shri.Sunil_Rane.png",
-      name: "Shri. Sunil Rane",
-      designation: "Atharva University, Mumbai",
-    },
-    {
-      src: "/assets/Dr.Rajesh_Pande.jpg",
-      name: "Dr. Rajesh S. Pande",
-      designation: "VC, Ramdevbaba University, Nagpur",
-    },
-    {
-    },
 
     {
       src: "/assets/vc-Gopalkrishna-Joshi.jpg",
@@ -262,39 +206,42 @@ const AboutUs = () => {
     },
   ];
 
+  const PrevArrow = ({ onClick }) => (
+    <div className="custom-arrow prev" onClick={onClick}>
+      <IoIosArrowBack />
+    </div>
+  );
+
+  const NextArrow = ({ onClick }) => (
+    <div className="custom-arrow next" onClick={onClick}>
+      <IoIosArrowForward />
+    </div>
+  );
+
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 3000,            // slow for smooth effect
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 0,       // important for continuous
+    cssEase: "linear",      // makes it continuous
     arrows: true,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
       { breakpoint: 600, settings: { slidesToShow: 1 } },
     ],
   };
-
   return (
     <div className="about-wrapper">
       {/* About Us Top Card */}
       <div className="about-card">
         <div className="about-left">
-          <h2 className="title">About PERA</h2>
+          <h2 >About PERA</h2>
           <p>
-            Preeminent Education and Research Association (PERA) is an esteem
-            federation of the state private universities of Maharashtra. The
-            federation has been constituted to promote quality education in all
-            the domains of professional programmes. </p>
-
-          <a href="/overview" className="read-more-btn">Read More</a>
-
-          <a href="/about" className="read-more-btn">
-            Read More
-          </a>
-      <p>
             Preeminent Education and Research Association (PERA) is an esteem federation of the state private universities of Maharashtra. The federation has been constituted to promote quality education in all the domains of professional programmes.
           </p>
           <a href="/overview" className="read-more-btn">Read More</a>
@@ -306,7 +253,7 @@ const AboutUs = () => {
 
       {/* Office Bearers Carousel */}
       <div className="office-bearers">
-        <h2 className="title">Office Bearers</h2>
+        <h1 className="title">Office Bearers</h1>
         <Slider {...settings}>
           {officeBearers.map((bearer, i) => (
             <div key={i} className="carousel-img-wrapper" onClick={() => setSelected(bearer)}>
@@ -322,9 +269,8 @@ const AboutUs = () => {
 
           ))}
         </Slider>
-
         {/* See More Button */}
-        <div style={{ textAlign: "center", marginTop: "20px" }}>
+        <div style={{ textAlign: "center", marginTop: "clamp(5px, 2vw, 30px)" }}>
           <a href="/office-bearers" className="see-more-btn">See More</a>
         </div>
 
@@ -334,10 +280,16 @@ const AboutUs = () => {
       {selected && (
         <div className="modal-backdrop" onClick={() => setSelected(null)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+
+            {/* Close Icon */}
+            <button className="modal-close-icon" onClick={() => setSelected(null)}>
+              <IoIosCloseCircle />
+            </button>
+
             <img src={selected.src} alt={selected.name} />
             <h3>{selected.name}</h3>
             <p>{selected.designation}</p>
-            <button onClick={() => setSelected(null)} className="modal-close-btn">Close</button>
+
           </div>
         </div>
       )}

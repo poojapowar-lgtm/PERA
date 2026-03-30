@@ -14,11 +14,6 @@ const officeBearers = [
     designation: "Vice President, PERA",
   },
   {
-    src: "/assets/Mr.Baharat-Agarwal.jpg",
-    name: "Mr. Bharat Agarwal",
-    designation: "Vice President, PERA",
-  },
-  {
     src: "/assets/e-b-khedkar.jpg",
     name: "Dr. E B Khedkar",
     designation: "Member Secretary, PERA",
@@ -55,7 +50,7 @@ const officeBearers = [
     designation: "Member, PERA",
   },
   {
-    src: "/assets/Dr. Ravikumar_Chitnis.png",
+    src: "/assets/Dr. Ravikumar_Chitnis.jpg",
     name: "Prof. Chitnis",
     designation: "Executive Member",
   },
@@ -227,7 +222,7 @@ const OfficeBearers = () => {
 
   return (
     <div className="office-bearers-page">
-      <h2 className="title">Office Bearers</h2>
+      <h1 className="title">Office Bearers</h1>
       <div className="bearers-grid">
         {officeBearers.map((bearer, index) => (
           <div className="img-hover-container">

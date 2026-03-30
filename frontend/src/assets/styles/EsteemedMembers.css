@@ -1,6 +1,6 @@
 .members-section {
   background: linear-gradient(to bottom, #F2F6F9, #ffffff);
-  padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 4vw, 3rem);
+  padding: clamp(1rem, 3vw, 2rem);
   overflow: hidden;
   position: relative;
 }
