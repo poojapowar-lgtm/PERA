@@ -12,6 +12,7 @@ const awardDetails = {
     previous: "/awards/savitribai-phule-teacher-award",
     next: "/awards/jr-researcher-award"
   },
+
   "jr-researcher-award": {
     title: "PERA Jr Researcher Award",
     content: [
@@ -21,6 +22,7 @@ const awardDetails = {
     previous: "/awards/sr-researcher-award",
     next: "/awards/swami-vivekanand-teacher-award"
   },
+
   "swami-vivekanand-teacher-award": {
     title: "Swami Vivekanand PERA Teacher Award",
     content: [
@@ -30,6 +32,7 @@ const awardDetails = {
     previous: "/awards/jr-researcher-award",
     next: "/awards/savitribai-phule-teacher-award"
   },
+
   "savitribai-phule-teacher-award": {
     title: "Smt. Savitribai Phule PERA Teacher Award",
     content: [
@@ -59,7 +62,6 @@ const AwardDetail = () => {
         <Link to={data.previous}>← Previous post</Link>
         <Link to={data.next}>Next post →</Link>
       </div>
-
 
       {/* <div className="comment-section">
 
