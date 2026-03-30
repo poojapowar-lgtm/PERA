@@ -1,0 +1,78 @@
+.members-section {
+  background: linear-gradient(to bottom, #F2F6F9, #ffffff);
+  padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 4vw, 3rem);
+  overflow: hidden;
+  position: relative;
+}
+
+
+/* Underline Accent */
+/* .members-title::after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #265690;
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 4px;
+} */
+
+/* Marquee */
+.marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* Scrolling Content */
+.marquee-content {
+  display: flex;
+  gap: clamp(1rem, 3vw, 2.5rem);
+  animation: scroll 30s linear infinite;
+}
+
+/* Card */
+.univ-card {
+  min-width: clamp(140px, 15vw, 200px);
+  height: clamp(100px, 12vw, 140px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.4s ease;
+}
+
+/* Hover Elevation */
+.univ-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.univ-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+}
+
+.univ-card:hover .univ-img {
+  transform: scale(1.05);
+}
+
+/* Smooth Infinite Scroll */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* ONLY Necessary Media Query */
+@media (max-width: 480px) {
+  .marquee-content {
+    animation-duration: 20s; /* slightly faster on small screens */
+  }
+}

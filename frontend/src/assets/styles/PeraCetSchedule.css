@@ -1,0 +1,120 @@
+/* Container */
+.schedule-container {
+  max-width: 900px;
+  margin: auto;
+  padding: clamp(1.2rem, 4vw, 3rem);
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: linear-gradient(to bottom, #ffffff, #f4f8fc);
+}
+
+/* Banner */
+.schedule-banner {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  margin-bottom: clamp(1rem, 3vw, 2rem);
+  object-fit: cover;
+  max-height: clamp(220px, 35vw, 420px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease;
+}
+
+.schedule-banner:hover {
+  transform: scale(1.02);
+}
+
+/* Heading */
+/* h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  position: relative;
+} */
+
+/* h2::after {
+  content: "";
+  width: 70px;
+  height: 3px;
+  background: #007bff;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 4px;
+} */
+
+/* Table */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: clamp(1rem, 3vw, 2rem);
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  font-size: clamp(0.9rem, 1.1vw, 1rem);
+}
+
+/* Table Cells */
+.schedule-table th,
+.schedule-table td {
+  padding: clamp(0.6rem, 1.5vw, 1rem);
+  border: 1px solid #e2e6ea;
+  text-align: left;
+}
+
+/* Table Header */
+.schedule-table th {
+  background: linear-gradient(135deg, #003366, #00509e);
+  color: white;
+  font-weight: 600;
+}
+
+/* Alternate Row */
+.schedule-table tr:nth-child(even) {
+  background-color: #f7faff;
+}
+
+/* Hover Row */
+.schedule-table tr:hover {
+  background-color: #eaf3ff;
+  transition: background 0.2s ease;
+}
+
+/* Guidelines Heading */
+.guidelines-heading {
+  font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+  font-weight: 600;
+  margin-top: clamp(1.5rem, 4vw, 2.5rem);
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.guidelines-heading:hover {
+  color: #0056b3;
+  transform: translateX(4px);
+}
+
+/* Guidelines Content */
+.guidelines-content {
+  background: linear-gradient(to right, #f9f9f9, #f1f6ff);
+  padding: clamp(0.8rem, 2vw, 1.2rem);
+  border-left: 5px solid #007bff;
+  margin-top: clamp(0.6rem, 1.5vw, 1rem);
+  border-radius: 12px;
+  font-size: clamp(0.9rem, 1.1vw, 1rem);
+  line-height: 1.7;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* ONLY Necessary Media Query */
+@media (max-width: 600px) {
+  .schedule-table {
+    font-size: 0.85rem;
+  }
+
+  .guidelines-content {
+    border-left-width: 4px;
+  }
+}

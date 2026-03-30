@@ -1,0 +1,133 @@
+.pera-champ-container { 
+  max-width: 900px;
+  margin: 0 auto;
+  padding: clamp(16px, 3vw, 30px);
+  font-family: 'Segoe UI', sans-serif;
+  background: #ffffff;
+  border-radius: clamp(10px, 2vw, 16px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.pera-champ-container:hover {
+  transform: translateY(-4px);
+}
+
+/* .pera-title {
+  text-align: center;
+  font-size: clamp(22px, 4vw, 34px);
+  font-weight: 700;
+  margin-bottom: clamp(20px, 4vw, 40px);
+  color: #1d1d1f;
+  letter-spacing: 0.5px;
+} */
+
+.champ-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(15px, 3vw, 30px);
+  justify-content: space-between;
+  margin-bottom: clamp(20px, 4vw, 40px);
+}
+
+.champ-video-section {
+  flex: 1 1 100%;
+}
+
+.champ-video-section iframe {
+  width: 100%;
+  height: clamp(220px, 40vw, 380px);
+  border-radius: clamp(8px, 2vw, 14px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.champ-details {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(10px, 2vw, 16px);
+  margin-top: clamp(15px, 3vw, 25px);
+}
+
+.register-btn {
+  padding: clamp(10px, 2vw, 14px) clamp(20px, 4vw, 28px);
+  background: linear-gradient(135deg, #ff8800, #ff6600);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: clamp(6px, 1.5vw, 10px);
+  font-size: clamp(14px, 2vw, 16px);
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(255, 136, 0, 0.3);
+}
+
+.register-btn:hover {
+  background: linear-gradient(135deg, #e57000, #cc5500);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 136, 0, 0.4);
+}
+
+.champ-description {
+  margin-bottom: clamp(20px, 3vw, 30px);
+  line-height: 1.8;
+  font-size: clamp(14px, 2vw, 17px);
+  color: #444;
+}
+
+.champ-table {
+  overflow-x: auto;
+}
+
+/* .champ-table h3 {
+  margin-bottom: clamp(10px, 2vw, 18px);
+  font-size: clamp(18px, 3vw, 24px);
+  text-align: center;
+  font-weight: 600;
+  color: #003366;
+} */
+
+.champ-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: clamp(13px, 2vw, 15px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.champ-table th,
+.champ-table td {
+  border: 1px solid #e0e0e0;
+  padding: clamp(8px, 1.5vw, 14px);
+  text-align: center;
+}
+
+.champ-table th {
+  background: linear-gradient(135deg, #f2f2f2, #e6e6e6);
+  font-weight: 600;
+}
+
+.champ-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.champ-table tr:hover {
+  background-color: #f1f7ff;
+  transition: background 0.3s ease;
+}
+
+/* Responsive for medium+ screens */
+@media (min-width: 768px) {
+  .champ-card {
+    flex-wrap: nowrap;
+  }
+
+  .champ-video-section {
+    flex: 1 1 60%;
+  }
+
+  .champ-details {
+    flex: 1 1 35%;
+    margin-top: 0;
+  }
+}

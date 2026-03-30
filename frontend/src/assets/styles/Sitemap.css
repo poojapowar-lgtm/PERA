@@ -1,0 +1,63 @@
+/* Sitemap Container */
+.sitemap-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(20px, 4vw, 50px);
+  padding: clamp(25px, 5vw, 60px);
+  background: linear-gradient(135deg, #f9f9f9, #eef3f8);
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: clamp(8px, 2vw, 16px);
+}
+
+/* Individual Section */
+.sitemap-section {
+  min-width: clamp(180px, 20vw, 240px);
+  flex: 1 1 auto;
+}
+
+/* Section Heading */
+.sitemap-section h4 {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  margin-bottom: clamp(10px, 2vw, 16px);
+  color: #222;
+  font-weight: 600;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 6px;
+}
+
+/* List Reset */
+.sitemap-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List Items */
+.sitemap-section li {
+  margin: clamp(6px, 1.5vw, 10px) 0;
+}
+
+/* Links */
+.sitemap-section a {
+  text-decoration: none;
+  color: #007acc;
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  transition: color 0.3s ease, padding-left 0.3s ease;
+  display: inline-block;
+}
+
+.sitemap-section a:hover {
+  color: #003366;
+  padding-left: 6px;
+}
+
+/* Only necessary stacking improvement */
+@media (max-width: 480px) {
+  .sitemap-container {
+    gap: 20px;
+  }
+
+  .sitemap-section {
+    min-width: 100%;
+  }
+}

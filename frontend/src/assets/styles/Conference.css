@@ -1,0 +1,209 @@
+/* Container */
+.national-conference-container {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  max-width: 1200px;
+  margin: auto;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Layout change ONLY where necessary */
+@media (min-width: 1024px) {
+  .national-conference-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+/* Sidebar Navigation */
+.sidebar-nav {
+  position: sticky;
+  top: clamp(1rem, 2vw, 2rem);
+  background: linear-gradient(145deg, #ffffff, #f8faff);
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  width: 100%;
+}
+
+.sidebar-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(0.5rem, 1.5vw, 1.5rem);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav ul li a {
+  padding: clamp(0.4rem, 1vw, 0.6rem) clamp(0.8rem, 1.5vw, 1rem);
+  background-color: #f0f4ff;
+  border-radius: 8px;
+  color: #003366;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: clamp(0.8rem, 1vw, 0.95rem);
+  transition: all 0.3s ease;
+}
+
+.sidebar-nav ul li a:hover {
+  background-color: #0056b3;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 86, 179, 0.3);
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  width: 100%;
+}
+
+/* Banner */
+/* .banner-image {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+} */
+
+/* Sections */
+
+.section {
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+/* .section h2 {
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  color: #003366;
+  font-weight: 700;
+  margin-bottom: clamp(0.8rem, 1.5vw, 1.2rem);
+  position: relative;
+} */
+
+/* Underline Accent */
+/* .section h2::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: #0056b3;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  border-radius: 4px;
+} */
+
+/* .section p,
+.section li {
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+  font-size: clamp(0.9rem, 1vw, 1rem);
+} */
+
+/* Panel Discussion */
+.panel-discussion {
+  background: linear-gradient(135deg, #2C335A, #3b4475);
+  color: white;
+  border-radius: 16px;
+  padding: clamp(1.2rem, 2.5vw, 2rem);
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.panel-discussion h2 {
+  color: white;
+}
+
+.panel-discussion ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.panel-discussion li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: clamp(0.85rem, 1vw, 0.95rem);
+}
+
+/* Registration Grid */
+.registration-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.registration-grid a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+}
+
+.registration-grid a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -3px;
+  background: #0056b3;
+  transition: width 0.3s ease;
+}
+
+.registration-grid a:hover::after {
+  width: 100%;
+}
+
+/* Participating Section */
+.participating-section {
+  background: #F5F7FB;
+  padding: clamp(1.2rem, 2.5vw, 2rem);
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.02);
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: white;
+  padding: clamp(1.2rem, 2.5vw, 2rem);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.contact-section p {
+  margin: 0.6rem 0;
+  font-size: clamp(0.9rem, 1vw, 1rem);
+}
+
+.contact-section a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+}
+
+.contact-section a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #0056b3;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transition: width 0.3s ease;
+}
+
+.contact-section a:hover::after {
+  width: 100%;
+}

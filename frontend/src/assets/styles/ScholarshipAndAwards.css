@@ -1,0 +1,76 @@
+.scholarship-awards-page { 
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: clamp(25px, 4vw, 50px) clamp(15px, 4vw, 35px);
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: linear-gradient(135deg, #f8fbff, #eef4fa);
+  border-radius: clamp(10px, 2vw, 18px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+}
+
+/* Main Title */
+/* .scholarship-awards-page h1 {
+  text-align: center;
+  margin-bottom: clamp(30px, 5vw, 60px);
+  font-size: clamp(1.7rem, 4vw, 2.6rem);
+  color: #222;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+} */
+
+/* Section Wrapper */
+.section {
+  margin-bottom: clamp(35px, 6vw, 70px);
+  padding-bottom: clamp(10px, 2vw, 20px);
+  border-bottom: 1px solid #e5eaf0;
+}
+
+/* Section Title */
+.section h2 {
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  margin-bottom: clamp(12px, 2vw, 20px);
+  color: #1e1e1e;
+  font-weight: 600;
+}
+
+/* Section Image */
+.section-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: clamp(18px, 3vw, 35px);
+  border-radius: clamp(8px, 1.5vw, 16px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+/* Subheading */
+/* .section h3 {
+  margin-top: clamp(18px, 3vw, 30px);
+  font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+  color: #444;
+  font-weight: 600;
+} */
+
+/* List Styling */
+/* .section ul {
+  padding-left: clamp(18px, 2vw, 28px);
+  margin-top: clamp(10px, 2vw, 18px);
+}
+
+.section ul li {
+  margin-bottom: clamp(8px, 1.8vw, 14px);
+  line-height: 1.8;
+  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+  color: #555;
+  transition: color 0.2s ease;
+}
+
+.section ul li:hover {
+  color: #1e3799;
+} */

@@ -1,0 +1,137 @@
+.office-bearers-page {
+  padding: 30px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.bearers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(clamp(200px, 22vw, 240px), 1fr)
+  );
+  gap: clamp(1rem, 3vw, 2rem);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.overlay p{
+  color: white;
+  margin: 0;
+}
+
+
+/* Image */
+.bearer-card img {
+  max-width: clamp(160px, 25vw, 250px);
+  border-right: 6px solid #007bff;
+  border-bottom: 6px solid #007bff;
+  object-fit: cover;
+  border-radius: 10%;
+  transition: transform 0.3s ease;
+}
+
+.bearer-card:hover img {
+  transform: scale(1.04);
+}
+
+/* Name */
+.bearer-card h3 {
+  margin-top: clamp(0.8rem, 1.5vw, 1rem);
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  color: #333;
+}
+
+/* Position */
+.bearer-card p {
+  font-size: clamp(0.85rem, 1.2vw, 0.95rem);
+  color: #666;
+  margin-top: 0.3rem;
+}
+
+/* Reply Section */
+/* Reply Form */
+.reply-section {
+  margin-top: 50px;
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.reply-section h2 {
+  margin-bottom: 10px;
+  color: #1d2550;
+}
+
+.reply-section p {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.reply-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reply-form textarea,
+.reply-form input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.reply-form button {
+  background: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.3s ease;
+}
+
+.reply-form button:hover {
+  background: #0056b3;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #444;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.remember input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #007bff;
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  .bearer-card img {
+    max-height: 220px;
+  }
+
+  .reply-section {
+    padding: 20px 15px;
+  }
+
+  .reply-form button {
+    width: 100%;
+    align-self: stretch;
+  }
+}

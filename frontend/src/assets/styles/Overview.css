@@ -1,0 +1,100 @@
+/* Container */
+.overview-container {
+  padding: clamp(1rem, 4vw, 3rem);
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f7f9fc);
+}
+
+/* Responsive Image */
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  border-radius: 16px;
+  margin-bottom: clamp(1.5rem, 4vw, 3rem);
+  object-fit: cover;
+  max-height: clamp(250px, 40vw, 420px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease;
+}
+
+.responsive-image:hover {
+  transform: scale(1.02);
+}
+
+/* Card */
+.objectives-card {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+/* Card Title */
+/* .objectives-card h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: clamp(0.8rem, 2vw, 1.2rem);
+  color: #1D2550;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.objectives-card h2::after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #1D2550;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 4px;
+} */
+
+/* Sub Heading */
+/* .heading {
+  color: #1D2550;
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  margin-top: clamp(1.2rem, 3vw, 2rem);
+  margin-bottom: clamp(0.8rem, 2vw, 1.2rem);
+} */
+
+/* Paragraphs */
+/* .objectives-card p {
+  font-size: clamp(0.95rem, 1.2vw, 1.05rem);
+  margin-bottom: clamp(0.8rem, 2vw, 1.2rem);
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+} */
+
+/* List */
+/* .objectives-card ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #444;
+  margin-top: 0.5rem;
+} */
+
+/* .objectives-card li {
+  margin-bottom: clamp(0.6rem, 1.5vw, 1rem);
+  line-height: 1.7;
+  font-size: clamp(0.95rem, 1.2vw, 1.05rem);
+  transition: transform 0.2s ease;
+}
+
+.objectives-card li:hover {
+  transform: translateX(4px);
+  color: #1D2550;
+} */
+
+/* ONLY Necessary Media Query */
+@media (max-width: 600px) {
+  .objectives-card {
+    width: 100%;
+  }
+}

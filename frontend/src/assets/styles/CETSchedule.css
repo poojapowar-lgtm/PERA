@@ -1,0 +1,105 @@
+.cet-row {
+  gap: 20px;
+  display: flex;
+  width: 90%;
+<<<<<<< HEAD
+  height: 80%;
+  margin: 0 auto;
+  padding: 0;
+
+=======
+  margin: 0 auto;
+  padding: clamp( 10px, 2vw, 50px);
+  gap: clamp(0.8rem, 2vw, 1.5rem);
+>>>>>>> f7bf7d5 (updated the website styling and added mobile responsivness)
+}
+
+/* Column Styling */
+.cet-column {
+  flex: 1;
+  padding: clamp(0.5rem, 3vw, 1.5rem);
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+<<<<<<< HEAD
+  align-items: center;
+  border-radius: 0;
+  margin: 0;
+  border-radius: 10px;
+  /* min-height: 250px; */
+=======
+  /* min-height: clamp(150px, 35vh, 250px); */
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+>>>>>>> f7bf7d5 (updated the website styling and added mobile responsivness)
+}
+
+/* Soft hover elevation */
+.cet-column:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Title */
+.cet-title {
+  text-align: center;
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  margin-bottom: clamp(0.5rem, 1vw, 0.8rem);
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+/* Subtitle */
+.cet-subtitle {
+  color: #D53D4B;
+  font-size: clamp(0.8rem, 1.8vw, 1.4rem);
+  font-weight: bold;
+  margin-bottom: clamp(0.4rem, 1vw, 0.6rem);
+}
+
+/* Date */
+.cet-date {
+  color: white;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+  opacity: 0.9;
+}
+
+/* Button */
+.cet-button {
+  background: linear-gradient(135deg, #9D2FD0, #7e1ab5);
+  color: white;
+  border: none;
+  padding: clamp(0.5rem, 1.2vw, 0.8rem) clamp(1rem, 2vw, 1.4rem);
+  font-weight: bold;
+  font-size: clamp(0.7rem, 1vw, 0.95rem);
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.cet-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(157, 47, 208, 0.4);
+}
+
+/* ONLY Necessary Media Query (Layout Change) */
+@media (max-width: 768px) {
+  .cet-row {
+    flex-direction: row;   
+    flex-wrap: wrap;       
+  }
+
+  .cet-column {
+    flex: 0 0 48%;        
+  }
+}

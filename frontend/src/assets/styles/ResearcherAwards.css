@@ -1,0 +1,102 @@
+/* Container for the awards listing */ 
+.scholarship-container {
+  padding: clamp(30px, 5vw, 60px) clamp(15px, 4vw, 40px);
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f4f8fc, #eef5fb);
+  border-radius: clamp(10px, 2vw, 18px);
+  box-shadow: 0 15px 40px rgba(0, 51, 102, 0.08);
+}
+
+/* Title styling */
+.scholarship-container h2 {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  text-align: center;
+  color: #003366;
+  margin-bottom: clamp(12px, 2vw, 20px);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Eligibility text */
+.eligibility-note {
+  font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+  text-align: center;
+  color: #444;
+  margin-bottom: clamp(20px, 4vw, 40px);
+  line-height: 1.8;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Cards container using grid */
+.scholarship-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(clamp(260px, 30vw, 320px), 1fr));
+  gap: clamp(16px, 3vw, 30px);
+}
+
+/* Individual award card */
+.scholarship-card {
+  background: #ffffff;
+  border: 1px solid #d1dce5;
+  border-left: clamp(4px, 1vw, 8px) solid #003366;
+  padding: clamp(18px, 3vw, 26px);
+  border-radius: clamp(8px, 1.5vw, 14px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.scholarship-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 51, 102, 0.12);
+}
+
+/* Date badge */
+.scholarship-date {
+  font-size: clamp(0.75rem, 1.5vw, 0.9rem);
+  font-weight: 600;
+  color: #003366;
+  background: linear-gradient(135deg, #eaf3ff, #dcecff);
+  padding: clamp(4px, 1vw, 6px) clamp(8px, 2vw, 12px);
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: clamp(10px, 2vw, 16px);
+}
+
+/* Title */
+.scholarship-card h3 {
+  font-size: clamp(1.05rem, 2.5vw, 1.35rem);
+  color: #222;
+  margin-bottom: clamp(8px, 1.5vw, 14px);
+  font-weight: 600;
+}
+
+/* Excerpt text */
+.scholarship-card p {
+  font-size: clamp(0.9rem, 1.6vw, 1rem);
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Read more button */
+/* .read-more-btn {
+  display: inline-block;
+  margin-top: clamp(12px, 2vw, 20px);
+  padding: clamp(8px, 1.5vw, 10px) clamp(14px, 2.5vw, 18px);
+  background: linear-gradient(135deg, #003366, #002244);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: clamp(0.85rem, 1.5vw, 0.95rem);
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background: linear-gradient(135deg, #002244, #001a33);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 34, 68, 0.3);
+} */
