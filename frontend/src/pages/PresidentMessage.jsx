@@ -11,7 +11,7 @@ const PresidentMessage = () => {
           <img src={profileImg} alt="Dr. Mangesh T. Karad" className="profile-img" />
           <div className="profile-info">
             <h3 className="president-msg">Dr. Mangesh T. Karad</h3>
-            <h3 className="president-text"> ( President, PERA )</h3>
+            <P className="president-text"> ( President, PERA )</P>
           </div>
         </div>
         <div className="message-content">

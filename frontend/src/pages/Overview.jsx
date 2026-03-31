@@ -16,7 +16,7 @@ const Overview = () => {
         </p>
 
         <h3 className="heading">Objectives :-</h3>
-        <ul>
+        <ul  className="page-list">
           <li>To encourage, promote and facilitate higher education, research and other extra-curricular & co-curricular activities to help overall conducive uplifting and progress of higher education.</li>
           <li>To inspire and indorse research & innovation for the advancement and dissemination of knowledge.</li>
           <li>To represent self-financed universities of the Maharashtra State at all India level for addressing & resolving their various regulatory issues with State Government of Maharashtra, University Grant Commission (UGC), MHRD and various Councils and Government authorities pertaining to issues on academics, human resource, reservation, accreditations, pay commission, guidelines & approvals of town planning for building FSI, layouts of the educational institutions etc.</li>
