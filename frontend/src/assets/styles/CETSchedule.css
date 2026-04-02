@@ -2,16 +2,12 @@
   gap: 20px;
   display: flex;
   width: 90%;
-<<<<<<< HEAD
   height: 80%;
   margin: 0 auto;
   padding: 0;
-
-=======
   margin: 0 auto;
   padding: clamp( 10px, 2vw, 50px);
   gap: clamp(0.8rem, 2vw, 1.5rem);
->>>>>>> f7bf7d5 (updated the website styling and added mobile responsivness)
 }
 
 /* Column Styling */
@@ -24,19 +20,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-<<<<<<< HEAD
   align-items: center;
   border-radius: 0;
   margin: 0;
   border-radius: 10px;
-  /* min-height: 250px; */
-=======
-  /* min-height: clamp(150px, 35vh, 250px); */
   position: relative;
   overflow: hidden;
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
->>>>>>> f7bf7d5 (updated the website styling and added mobile responsivness)
 }
 
 /* Soft hover elevation */
@@ -100,6 +91,6 @@
   }
 
   .cet-column {
-    flex: 0 0 48%;        
+    flex: 0 0 45%;        
   }
 }
