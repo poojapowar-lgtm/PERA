@@ -130,10 +130,10 @@ const Navbar = () => {
                 <Link to="/application-form">Online Application Form</Link>
               </li>
               <li>
-                <Link to="/schedule">PERA CET 2025 Schedule</Link>
+                <Link to="/schedule">PERA CET 2026 Schedule</Link>
               </li>
               <li>
-                <Link to="/result">PERA CET 2025 Result</Link>
+                <Link to="/result">PERA CET 2026 Result</Link>
               </li>
             </ul>
           )}

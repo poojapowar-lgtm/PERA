@@ -11,11 +11,11 @@ const Schedule = () => {
     <div className="schedule-container">
       <img
         src={img}
-        alt="PERA CET 2025 Schedule Banner"
+        alt="PERA CET 2026 Schedule Banner"
         className="schedule-banner"
       />
 
-      <h2 className="title">Schedule for PERA CET-2025</h2>
+      <h2 className="title">Schedule for PERA CET-2026</h2>
 
       <table className="schedule-table">
         <thead>
@@ -27,19 +27,19 @@ const Schedule = () => {
         <tbody>
           <tr>
             <td>Start Date</td>
-            <td>01st Jan 2025</td>
+            <td>01st Jan 2026</td>
           </tr>
           <tr>
             <td>Last Date</td>
-            <td>18th May 2025</td>
+            <td>25th May 2026</td>
           </tr>
           <tr>
             <td>Examination Date</td>
-            <td>22nd, 23rd & 24th May 2025 and 27th May 2025</td>
+            <td>30th, 31st May & 1st June 2026 </td>
           </tr>
           <tr>
             <td>Result Date</td>
-            <td>31st May 2025</td>
+            <td>09 June 2026</td>
           </tr>
         </tbody>
       </table>
@@ -49,13 +49,13 @@ const Schedule = () => {
         className="guidelines-heading"
         onClick={() => setShowAdmitGuidelines(!showAdmitGuidelines)}
       >
-        PERA CET-2025 e-ADMIT CARD preparation guidelines (Start Date 10th May 2025)
+        PERA CET-2026 e-ADMIT CARD preparation guidelines (Start Date 20th May 2026)
       </h3>
       {showAdmitGuidelines && (
         <div className="guidelines-content">
           <p>Dear Candidate,</p>
-          <p>Preeminent Education and Research Association, Pune, welcomes you for PERA CET-2025 Examination.</p>
-          <p>To appear for the PERA CET -2025 Online Proctored examination at home, you are requested to make appropriate arrangements as specified below.</p>
+          <p>Preeminent Education and Research Association, Pune, welcomes you for PERA CET-2026 Examination.</p>
+          <p>To appear for the PERA CET -2026 Online Proctored examination at home, you are requested to make appropriate arrangements as specified below.</p>
           <ol>
             <li>A “Desktop PC or Laptop” with enabled Web Camera is required.</li>
             <li>It is necessary to have Windows OS, Latest Google Chrome Browser and Internet connection with good connectivity & speed.</li>
@@ -64,7 +64,7 @@ const Schedule = () => {
           </ol>
           <h4>Steps to prepare and download e-Admit Card:</h4>
           <ol>
-            <li>Enter the below URL (Start date: 10th May 2025)
+            <li>Enter the below URL (Start date: 20th May 2026)
               <ul>
                 <li><a href="https://peracet.formsubmit.in" target="_blank" rel="noopener noreferrer">https://peracet.formsubmit.in</a></li>
                 <li>Click on Login Button</li>
@@ -86,13 +86,13 @@ const Schedule = () => {
         className="guidelines-heading"
         onClick={() => setShowMockExam(!showMockExam)}
       >
-        PERA CET - 2025 Mock Exam Guidelines and Schedule (Start Date 15th May 2025)
+        PERA CET - 2026 Mock Exam Guidelines and Schedule (Start Date 25th May 2026)
       </h3>
       {showMockExam && (
         <div className="guidelines-content">
           <p><strong>The Mock Exam URL Link is:</strong> <a href="https://peracet.unionline.in" target="_blank" rel="noopener noreferrer">https://peracet.unionline.in</a></p>
           <p><strong>The Username and Password</strong> is given in the ADMIT CARD.</p>
-          <h4>Important Instructions (15th May 2025 to 21st May 2025):</h4>
+          <h4>Important Instructions (25th May 2026 to 29th May 2026):</h4>
           <ul>
             <li>Mock Exam is a mandatory facility provided to understand the operations/functioning of PERA CET Examination Software and Hardware; it will make yourself ready for the final exam.</li>
             <li>Mock exam will be conducted for 25 MCQ type questions for 30 min duration. (The questions may not be from your course or program.)</li>
@@ -108,12 +108,12 @@ const Schedule = () => {
         className="guidelines-heading"
         onClick={() => setShowFinalExam(!showFinalExam)}
       >
-        PERA CET - 2025 Final Exam Schedule (Exam date and time are fixed and cannot be changed.)
+        PERA CET - 2026 Final Exam Schedule (Exam date and time are fixed and cannot be changed.)
       </h3>
       {showFinalExam && (
         <div className="guidelines-content">
           <p><strong>Note:</strong> Please read your admit card carefully for details regarding the exam date and time.</p>
-          <p><strong>Download User Manual:</strong> PERA_CET_2025_User_Manual</p>
+          <p><strong>Download User Manual:</strong> PERA_CET_2026_User_Manual</p>
           <table className="schedule-table">
             <thead>
               <tr>
@@ -123,11 +123,11 @@ const Schedule = () => {
               </tr>
             </thead>
             <tbody>
-              <tr><td>22nd May 2025</td><td>11:30 AM to 01:30 PM</td><td>Education (B.Ed / BA BEd / BSc BEd / M.Ed)</td></tr>
-              <tr><td>23rd May 2025</td><td>11:30 AM to 01:30 PM</td><td>Engineering (M. Tech) – All Specializations</td></tr>
-              <tr><td>24th May 2025</td><td>11:30 AM to 01:30 PM</td><td>Engineering (B. Tech)</td></tr>
-              <tr><td>27th May 2025</td><td>11:30 AM to 01:30 PM</td><td>Law (LLB/ BBA-LLB/ BA-LLB/ LLM), Bioengineering, Fine Arts, Food Tech, Design, Pharmacy, Management, Architecture</td></tr>
-              <tr><td>31st May 2025</td><td>05:00 PM Onwards</td><td>Result Day</td></tr>
+              <tr><td>22nd May 2026</td><td>11:30 AM to 01:30 PM</td><td>Education (B.Ed / BA BEd / BSc BEd / M.Ed)</td></tr>
+              <tr><td>23rd May 2026</td><td>11:30 AM to 01:30 PM</td><td>Engineering (M. Tech) – All Specializations</td></tr>
+              <tr><td>24th May 2026</td><td>11:30 AM to 01:30 PM</td><td>Engineering (B. Tech)</td></tr>
+              <tr><td>27th May 2026</td><td>11:30 AM to 01:30 PM</td><td>Law (LLB/ BBA-LLB/ BA-LLB/ LLM), Bioengineering, Fine Arts, Food Tech, Design, Pharmacy, Management, Architecture</td></tr>
+              <tr><td>31st May 2026</td><td>05:00 PM Onwards</td><td>Result Day</td></tr>
             </tbody>
           </table>
         </div>

@@ -22,7 +22,7 @@ const PopupNotification = () => {
     <div className="popup-overlay">
       <div className="popup-box">
         <button className="popup-close" onClick={() => setShowPopup(false)}>×</button>
-        <h2>PERA CET 2025 Notification</h2>
+        <h2>PERA CET 2026 Notification</h2>
         <p><strong>Dear Candidates,</strong></p>
         <p>
           The PERA office provides comprehensive support to all PERA CET registered candidates at no charge.

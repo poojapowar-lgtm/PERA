@@ -11,9 +11,9 @@ const PeraCetResult = () => {
         className="pera-result-banner"
       />
 
-      <h2 className='title'>PERA CET 2025 Result</h2>
+      <h2 className='title'>PERA CET 2026 Result</h2>
       <p className="result-date">
-        <strong>Note:</strong> PERA CET-2025 Result Date: <strong>31st May 2025</strong>, Time: <strong>05.00 PM onward</strong>.
+        <strong>Note:</strong> PERA CET-2026 Result Date: <strong>9th June 2026</strong>, Time: <strong>05.00 PM onward</strong>.
       </p>
 
       <div className="pera-section">

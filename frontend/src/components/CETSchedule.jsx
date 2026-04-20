@@ -7,28 +7,31 @@ const schedule = [
     title: "Start Date",
     description: "01st Jan 2026",
     bgColor: "#1F2652",
-    // link: "https://peraindia.in/pera_form_round_two/stud_reg.php",
+    link: "https://forms.easebuzz.in/signup/PERA/PERA/?inst_name=PERA&form_name=PERA&jsonData=1",
+    buttonText: "Apply Now"
   },
   {
     title: "Last Date",
-    description: "18th May 2026",
+    description: "25th May 2026",
     bgColor: "#333B62",
-    // link: "https://peraindia.in/pera_form_round_two/stud_reg.php",
+    link: "https://forms.easebuzz.in/signup/PERA/PERA/?inst_name=PERA&form_name=PERA&jsonData=1",
+    buttonText: "Apply Now"
   },
   {
     title: "Examination Dates",
-    description: "22nd, 23rd & 24th May 2026",
+    description: "30th, 31st May & 1st June 2026",
     bgColor: "#1F2652",
-    // link: "https://pera-india-sepia.vercel.app/schedule",
+    link: "https://forms.easebuzz.in/signup/PERA/PERA/?inst_name=PERA&form_name=PERA&jsonData=1",
+    buttonText: "Apply Now"
   },
   {
     title: "Result Date",
-    description: "31st May 2026",
+    description: "9th June 2026",
     bgColor: "#333B62",
-    // link: "https://pera-india-sepia.vercel.app/result",
+    link: "http://localhost:5173/result",
+    buttonText: "View Result"
   },
 ];
-
 const CETSchedule = () => {
   return (
     <div className="cet-row">
@@ -48,7 +51,8 @@ const CETSchedule = () => {
             rel="noopener noreferrer"
             className="cet-button"
           >
-            Apply Now <FaArrowRight style={{ marginLeft: "8px" }} />
+            {item.title === "Result Date" ? "View Result" : "Apply Now"}
+            <FaArrowRight style={{ marginLeft: "8px" }} />
           </a>
         </div>
       ))}
