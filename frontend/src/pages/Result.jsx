@@ -35,8 +35,8 @@ const PeraCetResult = () => {
           <li><strong>Password:</strong> As provided in your email</li>
           <li><strong>Scorecard Process:</strong> Download or view PDF result login guide</li>
           <li>
-            Download Guidebook: <a href="/downloads/PERA_CET_2024_Scorecard_Download_Guidebook.pdf" target="_blank" rel="noopener noreferrer">
-              PERA_CET_2024_Scorecard_Download_Guidebook.pdf
+            Download Guidebook: <a href="/assets/doc/PERA_CET_2026_Scorecard_Download_Guidebook.pdf" target="_blank" rel="noopener noreferrer">
+              PERA_CET_2026_Scorecard_Download_Guidebook.pdf
             </a>
           </li>
         </ul>

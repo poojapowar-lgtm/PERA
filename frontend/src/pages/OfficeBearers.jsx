@@ -52,32 +52,23 @@ const officeBearers = [
   {
     src: "/assets/Dr. Ravikumar_Chitnis.jpg",
     name: "Prof. Chitnis",
-    designation: "Executive Member",
-  },
-  {
-    src: "/assets/Dr.Sanjeevan-Arsud.jpg",
-    name: "Dr. Sanjeevan Arsud",
     designation: "Member, PERA",
   },
-  // {
-  //   src: "/assets/Dr.Pillai.jpg",
-  //   name: " Dr. V. N. Rajasekharan Pillai",
-  //   designation: "Member, PERA",
-  // },
+   {
+    src: "/assets/Shri.Sunil_Rane.png",
+    name: "Shri. Sunil Rane",
+    designation: "Member, PERA ",
+  },
   {
     src: "/assets/Dr.Ajay_Kapoor.png",
     name: "Dr. Ajay Kapoor",
-    designation: "VC Somaiya University, Mumbai",
+    designation: "Member, PERA",
   },
-  // {
-  //   src: "/assets/Dr.prabhaat-ranjan.jpg",
-  //   name: "Dr. Prabhaat Ranjan",
-  //   designation: "Executive Member",
-  // },
+
   {
     src: "/assets/Dr.Manish_Bhalla.jpg",
     name: "Prof.Dr.Manish Bhalla",
-    designation: "Vice Chancellor, D. Y. Patil International University",
+    designation: "Member, PERA",
   },
   {
     src: "/assets/Dr.Udhav_Bhosle.png",
@@ -99,25 +90,15 @@ const officeBearers = [
     name: "Dr. G.K. Shirude",
     designation: "Member, PERA",
   },
-  //   {
-  //   src: "/assets/Dr.Hrridaysh_Deshpande.jpg",
-  //   name: "Dr. Hrridaysh Deshpande",
-  //   designation: "Member, PERA",
-  // },
   {
     src: "/assets/Dr.Rakesh_Jain.png",
     name: "Dr. Rakesh Kumar Jain ",
-    designation: "VC, A DYPatil University, Pune ",
+    designation: "Member, PERA ",
   },
-  //   {
-  //   src: "/assets/Anil-Kashyap.jpg",
-  //   name: "Dr. Anil Kashyap",
-  //   designation: "Executive Member",
-  // },
   {
     src: "/assets/Dr.Vijay_Gupchup.jpg",
     name: "Dr. Vijay Gupchup",
-    designation: "President, NICMAR University, Pune",
+    designation: "Member, PERA",
   },
   {
     src: "/assets/Dr.Girish_Desai.jpg",
@@ -146,30 +127,15 @@ const officeBearers = [
     name: "Mr. Amit Nitinrao Kolhe",
     designation: "Member, PERA",
   },
-  // {
-  //   src: "/assets/Dr.M-Kharat.png",
-  //   name: "Dr. M.U Kharat",
-  //   designation: "Member, PERA",
-  // },
   {
     src: "/assets/Dr. R.D.Kharadkar.png",
     name: "Dr. R. D. Kharadkar ",
-    designation: "VC, GHR IST University ",
+    designation: "Member, PERA ",
   },
-  // {
-  //   src: "/assets/Dr.Prasad_Khandekar.png",
-  //   name: "Dr. Prasad Khandekar",
-  //   designation: "Member, PERA",
-  // },
   {
     src: "/assets/Dr.Rajesh_Ingale.jpg",
     name: "Dr. Rajesh Ingale ",
-    designation: "VC, DES Pune University, Pune ",
-  },
-  {
-    src: "/assets/prof.PAWAR.jpg",
-    name: "Prof. Hanumant Pawar",
-    designation: "CEO, PERA",
+    designation: "Member, PERA",
   },
   {
     src: "/assets/Dr.Tarita.png",
@@ -182,19 +148,19 @@ const officeBearers = [
     designation: "Member, PERA",
   },
   {
-    src: "/assets/Shri.Sunil_Rane.png",
-    name: "Shri. Sunil Rane",
-    designation: "Atharva University, Mumbai ",
-  },
-  {
     src: "/assets/Dr.Rajesh_Pande.jpg",
     name: "Dr. Rajesh S. Pande",
-    designation: "VC, Ramdevbaba University, Nagpur",
+    designation: "Member, PERA",
   },
   {
     src: "/assets/Dr.Milon_Rana.jpg",
     name: "Dr. Milon Rana",
-    designation: "VC, Spicer Advantage University, Pune",
+    designation: "Member, PERA",
+  },
+    {
+    src: "/assets/prof.PAWAR.jpg",
+    name: "Prof. Hanumant Pawar",
+    designation: "CEO, PERA",
   },
 ];
 

@@ -62,8 +62,8 @@
 }
 
 /* Nav buttons & links */
-.nav-item > a,
-.nav-item > button {
+.nav-item>a,
+.nav-item>button {
   color: white;
   text-decoration: none;
   background: none;
@@ -76,8 +76,8 @@
 }
 
 /* Hover effect */
-.nav-item > a:hover,
-.nav-item > button:hover {
+.nav-item>a:hover,
+.nav-item>button:hover {
   background: rgba(255, 255, 255, 0.15);
 }
 
@@ -133,7 +133,7 @@
 
 /* Scrollable dropdown */
 .scrollable-menu {
-  max-height: clamp(200px, 30vh, 300px);
+  max-height: 400px;
   overflow-y: auto;
   overflow-x: hidden;
 }

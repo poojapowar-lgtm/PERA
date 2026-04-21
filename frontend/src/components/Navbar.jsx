@@ -48,6 +48,7 @@ const Navbar = () => {
     { name: "MIT World Peace University, Pune", url: "https://mitwpu.edu.in/" },
     { name: "NICMAR University, Pune", url: "https://www.nicmar.ac.in" },
     { name: "Pimpri Chinchwad University (PCU), Pune", url: "https://pcet.org.in/pcet-pcu.php" },
+    { name: "Ramdeobaba university, Nagpur", url: "https://rbunagpur.in/" },
     { name: "Sandip University, Nashik", url: "https://www.sandipuniversity.edu.in" },
     { name: "Sanjay Ghodawat University, Kolhapur", url: "https://sanjayghodawatuniversity.co.in/" },
     { name: "Sanjivani University, Kopargaon", url: "https://sanjivanicoe.org.in/" },
