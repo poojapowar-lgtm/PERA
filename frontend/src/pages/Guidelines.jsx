@@ -19,7 +19,7 @@ const Guidelines = () => {
         "Total Marks: 200 | Duration: 2 hr."
       ],
       total: "Total: 200 Marks | 2 hr",
-      link: "https://www.peraindia.in/wp-content/uploads/2022/04/PCM-Syllabus.pdf"
+      link: "/assets/doc/PCM-Syllabus.pdf"
     },
     {
       program: [
@@ -33,7 +33,7 @@ const Guidelines = () => {
         "Biology (50 MCQ’s, each of 2 marks)"
       ],
       total: "Total Marks: 200 | Duration: 2 hr.",
-      link: "https://www.peraindia.in/wp-content/uploads/2022/04/PCB-Syllabus.pdf"
+      link: "/assets/doc/PCB-Syllabus.pdf"
     },
     {
       program: ["B. Ed / BA-B.Ed / BSc-B.Ed"],
@@ -42,7 +42,7 @@ const Guidelines = () => {
         "150 MCQ’s each of 1 Mark"
       ],
       total: "Total Marks: 150 | Duration: 2 hr.",
-      link: "https://www.peraindia.in/wp-content/uploads/2022/04/B-Ed-Syllabus.pdf"
+      link: "/assets/doc/B-Ed-Syllabus.pdf"
     },
     {
       program: ["M. Ed"],
@@ -76,7 +76,7 @@ const Guidelines = () => {
         "Based on MH CET syllabus"
       ],
       total: "Total Marks: 100 | Duration: 2 hr.",
-      link: "https://www.peraindia.in/wp-content/uploads/2022/04/BFA-Syllabus.pdf"
+      link: "/assets/doc/BFA-Syllabus.pdf"
     },
     {
       program: ["MBA"],
@@ -85,7 +85,7 @@ const Guidelines = () => {
         "100 MCQ’s each of 2 Marks"
       ],
       total: "Total Marks: 200 | Duration: 2 hr",
-      link: "https://www.peraindia.in/wp-content/uploads/2022/04/MBA-Syllabus.pdf"
+      link: "/assets/doc/MBA-Syllabus.pdf"
     },
     {
       program: ["MCA"],
@@ -94,7 +94,7 @@ const Guidelines = () => {
         "100 MCQ’s each of 2 Marks"
       ],
       total: "Total Marks: 200 | Duration: 2 hr",
-      link: "https://www.peraindia.in/wp-content/uploads/2022/06/MCA-Syllabus.pdf"
+      link: "/assets/doc/MCA-Syllabus.pdf"
     },
     {
       program: ["M. Pharm"],
@@ -145,7 +145,7 @@ const Guidelines = () => {
         <li>There will be No Negative marking for any of the PERA CET Examinations.</li>
       </ul>
 
-      <h3 className='inner-heading' style={{textAlign:"center"}}>Marking Scheme of PERA CET Examination</h3>
+      <h3 className='inner-heading' style={{ textAlign: "center" }}>Marking Scheme of PERA CET Examination</h3>
       <div className="pera-table-container">
         <table className="pera-table">
           <thead>
