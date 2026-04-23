@@ -66,7 +66,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-          <img src={logo} alt="PERA Logo" />
+        <img src={logo} alt="PERA Logo" />
       </div>
 
       <button className="menu-toggle" onClick={toggleMenu}>
@@ -76,7 +76,7 @@ const Navbar = () => {
       <ul className={`nav-links ${menuOpen ? "active" : ""}`} ref={dropdownRef}>
         <li className="nav-item">
           <Link to="/" className="home-link">
-            <AiFillHome style={{ marginRight: "6px" }} className="home-icon"/>
+            <AiFillHome style={{ marginRight: "6px" }} className="home-icon" />
           </Link>
         </li>
 
@@ -128,7 +128,13 @@ const Navbar = () => {
                 <Link to="/guidelines">PERA CET Guidelines</Link>
               </li>
               <li>
-                <Link to="https://forms.easebuzz.in/signup/PERA/PERA/?inst_name=PERA&form_name=PERA&jsonData=1">Online Application Form</Link>
+                <Link
+                  to="https://forms.easebuzz.in/signup/PERA/PERA/?inst_name=PERA&form_name=PERA&jsonData=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Online Application Form
+                </Link>
               </li>
               <li>
                 <Link to="/schedule">PERA CET 2026 Schedule</Link>
