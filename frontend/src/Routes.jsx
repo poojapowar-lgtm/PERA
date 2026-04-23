@@ -8,7 +8,7 @@ import Scholarships from './pages/Scholarships';
 import ScholarshipDetail from './pages/ScholarshipDetail';
 import WhyPeraCet from './pages/WhyPeraCET';
 import Guidelines from './pages/Guidelines';
-import ApplicationForm from './pages/ApplicationForm';
+// import ApplicationForm from './pages/ApplicationForm';
 import Schedule from './pages/Schedule';
 import Result from './pages/Result';
 import TeacherAwards from './pages/TeacherAwards'
@@ -58,7 +58,7 @@ const AppRoutes = () => {
       <Route path="/office-bearers" element={<OfficeBearers />} />
       <Route path="/why-pera-cet" element={<WhyPeraCet />} />
       <Route path="/guidelines" element={<Guidelines />} />
-      <Route path="/application-form" element={<ApplicationForm />} />
+      {/* <Route path="/application-form" element={<ApplicationForm />} /> */}
       <Route path="/schedule" element={<Schedule />} />
       <Route path="/result" element={<Result />} />
       <Route path="/scholarships" element={<Scholarships />} />

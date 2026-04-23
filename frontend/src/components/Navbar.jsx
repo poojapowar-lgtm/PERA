@@ -128,7 +128,7 @@ const Navbar = () => {
                 <Link to="/guidelines">PERA CET Guidelines</Link>
               </li>
               <li>
-                <Link to="/application-form">Online Application Form</Link>
+                <Link to="https://forms.easebuzz.in/signup/PERA/PERA/?inst_name=PERA&form_name=PERA&jsonData=1">Online Application Form</Link>
               </li>
               <li>
                 <Link to="/schedule">PERA CET 2026 Schedule</Link>
