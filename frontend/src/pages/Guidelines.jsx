@@ -137,7 +137,6 @@ const Guidelines = () => {
         <li>PERA CET shall be additional to other entrance exams like (JEE, MH-CET, Uni-Gauge, ATMA, CAT, MAT & other equivalent National or State Level Exams)</li>
         <li>PERA CET score will be considered for 1st year admission of respective UG / PG programs in PERA Member Universities only.</li>
         <li>Application fee will be Rs. 1500 /-  mode of payment is Online only <b>(Note-:Application Fee is Not-Refundable)</b></li>
-        <li>PERA CET is <b>“Online CBT (Computer Based Test) Entrance Examination”,</b> will be conducted at designated centers.</li>
         <li>Candidates can appear for the PERA CET <b>“Online Proctored Home-Based Entrance Examination”</b> from HOME.</li>
         <li>The question paper will be separate for respective programs. The PERA-CET answer key & solved answer sheet softcopy or hardcopy will not be shared.</li>
         <li>UG programs question paper will be designed based on respective 12th standard syllabus.</li>
