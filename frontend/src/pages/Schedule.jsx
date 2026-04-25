@@ -110,7 +110,7 @@ const Schedule = () => {
       >
         PERA CET - 2026 Final Exam Schedule (Exam date and time are fixed and cannot be changed.)
       </h3>
-      {showFinalExam && (
+      {/* {showFinalExam && (
         <div className="guidelines-content">
           <p><strong>Note:</strong> Please read your admit card carefully for details regarding the exam date and time.</p>
           <p><strong>Download User Manual:</strong> PERA_CET_2026_User_Manual</p>
@@ -131,7 +131,7 @@ const Schedule = () => {
             </tbody>
           </table>
         </div>
-      )}
+      )} */}
     </div>
   );
 };

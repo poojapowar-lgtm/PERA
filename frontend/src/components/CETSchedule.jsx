@@ -43,7 +43,7 @@ const CETSchedule = () => {
         >
           <div className="cet-tag" />
           <h3 className="cet-title">{item.title}</h3>
-          <h4 className="cet-subtitle">PERA CET 2025</h4>
+          <h4 className="cet-subtitle">PERA CET 2026</h4>
           <h5 className="cet-date">{item.description}</h5>
           <a
             href={item.link}
