@@ -144,6 +144,7 @@ const Guidelines = () => {
         <li>There will be No Negative marking for any of the PERA CET Examinations.</li>
       </ul>
 
+
       <h3 className='inner-heading' style={{ textAlign: "center" }}>Marking Scheme of PERA CET Examination</h3>
       <div className="pera-table-container">
         <table className="pera-table">

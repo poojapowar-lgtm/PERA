@@ -44,6 +44,21 @@ const Schedule = () => {
         </tbody>
       </table>
 
+      <div style={{margin:"20px"}}>
+        <b style={{ display: "inline",alignItems:"center", margin: "10px",color:"red" }}>
+          To download PERA CET - 2026 examination schedule : 
+        </b>
+
+        <a
+          href="https://drive.google.com/file/d/1J8ncVsBkILJo6OCZZUKjvmzr0ec-w8tt/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="read-more-btn"
+          style={{ display: "inline" }}
+        >
+          Click Here
+        </a></div>
+
       {/* e-Admit Card Guidelines */}
       <h3
         className="guidelines-heading"
